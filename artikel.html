@@ -1,0 +1,200 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Artikel Global Update</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* Light Mode (Default) */
+    body.light-mode {
+      background-color: #fff;
+      color: #333;
+    }
+
+    body.light-mode .navbar {
+      background-color: #f8f9fa !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      border-bottom: 1px solid #eee;
+    }
+
+    /* Dark Mode */
+    body.dark-mode {
+      background-color: #212121;
+      color: #d0d0d0;
+    }
+
+    body.dark-mode .navbar {
+      background-color: #2c2c2c !important;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      border-bottom: 1px solid #444;
+    }
+
+    body.dark-mode .nav-link {
+      color: #d0d0d0 !important;
+    }
+
+    body.dark-mode .nav-link:hover {
+      color: #007bff !important;
+    }
+
+    body.dark-mode .navbar-brand {
+      color: #d0d0d0 !important;
+    }
+
+    body.dark-mode .card {
+      background-color: #333333;
+      border: 1px solid #444;
+    }
+
+    body.dark-mode .card-body {
+      color: #d0d0d0;
+    }
+
+    body.dark-mode .card-footer {
+      background-color: #333333;
+      border-top: 1px solid #444;
+    }
+
+    body.dark-mode .text-muted {
+      color: #a0a0a0 !important;
+    }
+
+    .card-title {
+      font-weight: bold;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body class="light-mode">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">Global Update</a>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="artikel.html">Article</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Article Section -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Artikel</h2>
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://img.antaranews.com/cache/1200x800/2025/03/27/Gempa.jpg.webp" class="card-img-top" alt="Gempa 5,9 Magnitudo Guncang Tajikistan">
+        <div class="card-body">
+          <h5 class="card-title">Gempa 5,9 Magnitudo Guncang Tajikistan</h5>
+          <p class="card-text">Gempa berkekuatan 5,9 magnitudo mengguncang Tajikistan pada pukul 4:24 GMT, dengan pusat gempa berjarak 170 km dari tenggara Kota Khujand. Belum ada laporan mengenai korban jiwa atau kerusakan akibat gempa tersebut.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Minggu, 13 April 2025 14:53 WIB</small>
+          <a href="https://jabar.antaranews.com/berita/598077/gempa-13-april-2025-kekuatan-59-magnitudo-guncang-tajikistan?utm" target="_blank">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/232/2025/04/13/gaza-1238688717.png" class="card-img-top" alt="Krisis Gaza: Komunitas Internasional Serukan Gencatan Senjata">
+        <div class="card-body">
+          <h5 class="card-title">Krisis Gaza: Komunitas Internasional Serukan Gencatan Senjata</h5>
+          <p class="card-text">Konflik di Gaza semakin memburuk, dengan lebih dari 37.000 warga Palestina dilaporkan tewas sejak Oktober 2023. PBB dan komunitas internasional mendesak dilakukannya gencatan senjata dan pembukaan akses bantuan kemanusiaan.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Minggu, 13 April 2025 | 12:00 WIB</small>
+          <a href="https://radarbatu.jawapos.com/berita-terbaru/2325874653/krisis-gaza-komunitas-internasional-serukan-gencatan-senjata-dan-pembukaan-akses-bantuan-kemanusiaan?utm" target="_blank">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://cdn01.metrotvnews.com/dynamic/content/2025/04/13/NrWCoRea/a_67fb23adca3bd.jpg?w=720" class="card-img-top" alt="Israel Bangun 'Koridor Keamanan' Baru di Gaza">
+        <div class="card-body">
+          <h5 class="card-title">Israel Bangun 'Koridor Keamanan' Baru di Gaza</h5>
+          <p class="card-text">Militer Israel mengumumkan pembentukan "Koridor Morag" yang membentang antara Rafah dan Khan Yunis di Gaza, sebagai bagian dari strategi untuk memisahkan wilayah dan menekan Hamas. Lebih dari 1.500 warga Palestina telah tewas sejak gencatan senjata berakhir pada Maret 2025.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Willy Haryono • 13 April 2025 09:38</small>
+          <a href="https://www.metrotvnews.com/read/NrWCoRea-kuasai-rafah-israel-ciptakan-koridor-keamanan-baru-di-gaza?utm" target="_blank">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://asset.kompas.com/crops/e59Cg-cQE1MSkX55d1VIjHAZpXk=/0x0:2000x1333/1200x800/data/photo/2025/04/13/67fb01a2a425a.jpg" class="card-img-top" alt="Kecelakaan Helikopter di New York Tewaskan Bos Siemens">
+        <div class="card-body">
+          <h5 class="card-title">Kecelakaan Helikopter di New York Tewaskan Bos Siemens</h5>
+          <p class="card-text">Helikopter yang membawa Agustin Escobar, eksekutif Siemens asal Spanyol, jatuh di Sungai Hudson, New York. Kecelakaan ini menewaskan seluruh penumpang, termasuk tiga anak-anak dan pilot. Penyelidikan penyebab kecelakaan masih berlangsung.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Kompas.com - 13/04/2025, 07:15 WIB</small>
+          <a href="https://internasional.kompas.com/read/2025/04/13/071532470/salah-satu-korban-tewas-kecelakaan-heli-new-york-adalah-bos-siemens?utm" target="_blank">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://akcdn.detik.net.id/visual/2025/04/10/presiden-donald-trump-berpidato-di-sebuah-resepsi-perayaan-bulan-sejarah-perempuan-di-ruang-timur-gedung-putih-rabu-26-maret-2-1744258990754_169.jpeg?w=900&q=80" class="card-img-top" alt="Tarif Impor AS Jadi Bumerang bagi Pebisnis Domestik">
+        <div class="card-body">
+          <h5 class="card-title">Tarif Impor AS Jadi Bumerang bagi Pebisnis Domestik</h5>
+          <p class="card-text">Kebijakan tarif impor yang diterapkan oleh Presiden AS Donald Trump mulai berdampak negatif pada pelaku usaha domestik. Banyak perusahaan menghadapi peningkatan biaya produksi dan penurunan daya saing.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">13 April 2025 12:40</small>
+          <a href="https://www.cnbcindonesia.com/news/20250413122157-4-625544/tarif-trump-jadi-bumerang-korban-berjatuhan-di-negeri-sendiri?utm" target="_blank">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://asset.kompas.com/crops/DMB5XQzdU-JhQiqO3O_hdiWew30=/0x0:2000x1333/1200x800/data/photo/2024/12/09/67563cfbdc0a7.jpg" class="card-img-top" alt="Turki dan Israel Jalin Dialog untuk Cegah Bentrokan di Suriah">
+        <div class="card-body">
+          <h5 class="card-title">Turki dan Israel Jalin Dialog untuk Cegah Bentrokan di Suriah</h5>
+          <p class="card-text">Turki dan Israel memulai dialog diplomatik guna mencegah eskalasi konflik di Suriah, khususnya setelah kejatuhan rezim Assad yang menciptakan kekosongan kekuasaan dan potensi bentrokan antar kelompok.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Kompas.com - 13/04/2025, 07:52 WIB</small>
+          <a href="https://internasional.kompas.com/read/2025/04/13/075200870/turkiye-dan-israel-jalin-dialog-demi-cegah-bentrokan-di-suriah?utm" target="_blank">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Terapkan tema saat halaman dimuat
+  document.addEventListener('DOMContentLoaded', () => {
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.body.classList.add(savedTheme + '-mode');
+  });
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93673b7b2dedafc2',t:'MTc0NTY4MjU5MC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+</body>
+</html>
